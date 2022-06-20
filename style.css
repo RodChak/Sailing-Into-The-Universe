@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/4e947afe00fb849dd5796dcf5f63d9e6.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+    color: #fff;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
